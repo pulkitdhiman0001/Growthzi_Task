@@ -82,7 +82,9 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
+.timeline-mobile{
+  display: none;
+}
 @media screen and (max-width: 1285px) {
   .journey {
     padding: 20px;
@@ -92,6 +94,7 @@
   }
 
   .timeline-mobile {
+    display: block;
     position: relative;
     padding-left: 40px;
   }
