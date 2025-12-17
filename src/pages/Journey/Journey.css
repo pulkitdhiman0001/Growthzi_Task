@@ -1,0 +1,133 @@
+.journey {
+  padding: 80px 100px;
+  background-color: #161616;
+}
+
+.journey-title {
+  font-size: 36px;
+  color: #ffda5f;
+  margin-bottom: 60px;
+}
+
+.journey-title span {
+  color: #fff;
+}
+
+.timeline,
+.timeline-mobile {
+  position: relative;
+  padding-inline: 80px;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ffda5f;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.timeline-item.left {
+  justify-content: flex-start;
+}
+
+.timeline-item.right {
+  justify-content: flex-end;
+}
+
+.timeline-item.left .content {
+  text-align: right;
+}
+
+.timeline-item.right .content {
+  text-align: left;
+}
+
+.content {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h3 {
+  color: #ffda5f;
+  margin-bottom: 10px;
+  font-size: 39px;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #cfcfcf;
+  text-align: center;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 3px solid #ffda5f;
+  background: #0d0d0d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1285px) {
+  .journey {
+    padding: 20px;
+  }
+  .timeline {
+    display: none;
+  }
+
+  .timeline-mobile {
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .timeline-mobile .line {
+    left: 12px;
+    transform: none;
+  }
+
+  .timeline-mobile .timeline-item {
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .timeline-mobile .timeline-item.left,
+  .timeline-mobile .timeline-item.right {
+    justify-content: flex-start;
+  }
+
+  .timeline-mobile .content {
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 30px;
+    max-width: 100%;
+  }
+  .timeline-mobile .content p {
+    text-align: start;
+  }
+
+  .timeline-mobile .dot {
+    left: -35px;
+    transform: none;
+    top: 55px;
+  }
+
+  .timeline-item.left .content {
+    text-align: left;
+  }
+}

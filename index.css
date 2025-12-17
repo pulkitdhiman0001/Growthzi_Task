@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #000000,
+    #0e0d0e,
+    #171717,
+    #1f1e1f,
+    #272627,
+    #2c2c2d,
+    #323132,
+    #373738,
+    #3b3b3c,
+    #404040,
+    #444445,
+    #494949
+  );
+
+  /* margin: 20px 20px; */
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  margin-top: 20px;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+ 
+ 
+}
+

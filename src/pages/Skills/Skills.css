@@ -1,0 +1,34 @@
+.skills-main {
+  background-color: #161616;
+}
+
+.skills-inner {
+  padding-inline: 80px;
+  padding: 30px 80px 30px 80px;
+}
+
+.skill-icon {
+  height: 125.18400573730469px;
+  width: 125.18400573730469px;
+}
+
+.icon-container {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1285px) {
+
+  .skills-inner {
+    padding-inline: 20px;
+  }
+  .skill-icon {
+    height: 100.18400573730469px;
+    width: 100.18400573730469px;
+  }
+  .icon-container{
+    justify-content: center;
+  }
+}

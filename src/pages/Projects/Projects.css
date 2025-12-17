@@ -1,0 +1,68 @@
+.project-main {
+  padding: 80px 100px;
+  background-image: linear-gradient(
+    to right bottom,
+    #000000,
+    #0e0d0e,
+    #171717,
+    #1f1e1f,
+    #272627,
+    #2c2c2d,
+    #323132,
+    #373738,
+    #3b3b3c,
+    #404040,
+    #444445,
+    #494949
+  );
+}
+
+.projects-heading {
+
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+.projects-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+}
+
+
+.projects-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex-shrink: 0;
+}
+
+.projects-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.projects-cards.active {
+  cursor: grabbing;
+}
+
+@media screen and (max-width: 1285px) {
+
+  .project-main {
+    padding-inline: 20px;
+  }
+  .projects-cards {
+    padding-left: 20px;
+  }
+
+  .card {
+    width: 300px;
+    scroll-snap-align: start;
+  }
+  .projects-cards {
+    scroll-behavior: smooth;
+  }
+}

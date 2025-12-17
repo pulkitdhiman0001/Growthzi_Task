@@ -1,0 +1,177 @@
+.intro-main{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 80px;
+    color: white;
+    padding-top: 100px;
+    font-family: "roboto";
+    align-items: center;
+    
+}
+.greet{
+    font-size: 39px;
+}
+.name-block{
+    color: #ffda5f;
+    font-size: 78px;
+    font-weight: 700;
+}
+
+.intro-main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.role{
+    font-size: 57px;
+    font-weight: 700;
+}
+.experience-main{
+    display: flex;
+    align-items: center;
+}
+.experience{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 27px;
+    width: 220px;
+    color: #828282;
+    font-weight: 400;
+}
+
+.experience-years, .total-projects{
+    color: #4f4f4f;
+    font-size: 86px;
+    font-weight: 700;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 27px;
+    width: 392px;
+    color: #828282;
+    font-weight: 400;
+}
+
+.avatar-frame{
+    background: #00000040;
+    position: relative;
+    border-radius: 999px;
+    height: 526px;
+    width: 526px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0,.5);
+}
+
+.icon-wrapper{
+    border-radius: 999px;
+    background: #333333;
+    height: 114px;
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+}
+.react-icon-wrapper{
+    border-radius: 999px;
+    background: #333333;
+    height: 156px;
+    width: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+}
+
+
+
+.ts-icon img, .node-icon img, .react-icon img{
+    height: 63.4765625px;
+    width: 63.4765625px;
+    border-radius: 10px;
+    
+}
+
+.react-icon img{
+     height: 128px;
+    width: 128px;
+}
+
+.ts-icon{
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+    
+}
+.node-icon{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    
+}
+.react-icon{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    
+}
+
+.particle-1{
+    background-color: #222222;
+    width: 31px;
+    height: 31px;
+    border-radius: 999px;
+    position: absolute;
+    right: 30px;
+    top: -20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+}
+.particle-2{
+    background-color: #4F4F4F;
+    width: 23px;
+    height: 23px;
+    border-radius: 999px;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+}
+.particle-3{
+    background-color: #BDBDBD;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    position: absolute;
+    right: -25px;
+    bottom: 160px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+}
+
+
+@media screen and (max-width: 1285px) {
+
+  .intro-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-inline: 20px;
+    overflow: hidden;
+  }
+
+  .projects, .experience{
+    width: auto;
+  }
+
+  .experience-main{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+  
+}
